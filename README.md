@@ -1,5 +1,5 @@
 # rust-git
-Personal project of version control system written in rust.
+Version control system written in rust.
 
 ## Usage
 1. Run config and select folders to ignore: `cargo run config -i='target .git'`. 
