@@ -1,5 +1,5 @@
 ![Alt Text](vrsc.gif)
-# rust-git
+# vcrs
 Version control system written in rust.
 
 ## Usage
