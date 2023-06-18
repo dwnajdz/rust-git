@@ -1,3 +1,4 @@
+![Alt Text](vrsc.gif)
 # rust-git
 Version control system written in rust.
 
