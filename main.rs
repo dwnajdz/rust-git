@@ -1,4 +1,3 @@
-#![allow(unused)]
 use base64::encode;
 use clap::builder::Str;
 use clap::Parser;
@@ -82,7 +81,7 @@ fn cli_init(ignore: String) {
 }
 
 // scan all folders
-// read content and time od modification
+// read content and time of modification
 fn new_rvscw_files(path: String, ignore: &String) -> (String, json::JsonValue) {
     let mut fscontent = String::new();
     let mut fsmetadata = json::JsonValue::new_object();
